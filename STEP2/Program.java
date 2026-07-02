@@ -2,7 +2,7 @@ package STEP2;
 
 public class Program {
     public static void main(String[] args) {
-        ExpressionBuilder b = new ExpressionBuilder("-2*(-3+3)");
+        ExpressionBuilder b = new ExpressionBuilder("-2*(-3+6)");
         Exp e = b.getExpression();
         System.out.println(e.evaluate(null));
 
